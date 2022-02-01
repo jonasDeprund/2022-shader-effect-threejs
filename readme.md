@@ -12,7 +12,8 @@ npx parcel index.html
 
 ## Work in progress
 
-![](gif/wave-float.gif)
+<!-- ![](gif/wave-float.gif)
 ![](gif/wave.gif)
-![](gif/wave-zoom.gif)
-![](gif/wave-color.gif)
+![](gif/wave-zoom.gif) -->
+
+![](gif/wave-colored.gif)

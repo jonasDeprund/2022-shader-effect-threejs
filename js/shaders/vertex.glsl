@@ -76,6 +76,7 @@ float cnoise(vec3 P){
 
 uniform float time;
 varying float vNoise;
+varying vec2 vUv;
 
 void main() {
     vec3 newposition = position;
@@ -85,7 +86,8 @@ void main() {
     // newposition.z += 0.1*sin((newposition.x + 0.25 + time / 10.)*2.*PI);
     newposition.z += 0.2*noise;
 
-     vNoise = noise;
+    vNoise = noise;
+    vUv = uv;
 
     gl_Position = projectionMatrix * modelViewMatrix * vec4(newposition, 1.0);
 }

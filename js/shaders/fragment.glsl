@@ -1,4 +1,5 @@
 varying float vNoise;
+varying vec2 vUv;
 
 void main() {
     vec3 color1 = vec3(1., 0., 0.);
